@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SIT_304",
+            "request": "launch",
+            "mainClass": "SIT_304",
+            "projectName": "Sit_746604ad"
+        },
+        {
+            "type": "java",
+            "name": "SIT_303",
+            "request": "launch",
+            "mainClass": "SIT_303",
+            "projectName": "Sit_746604ad"
+        },
+        {
+            "type": "java",
+            "name": "SIT_302",
+            "request": "launch",
+            "mainClass": "SIT_302",
+            "projectName": "Sit_746604ad"
+        },
+        {
+            "type": "java",
             "name": "SIT_203",
             "request": "launch",
             "mainClass": "SIT_203",

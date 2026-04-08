@@ -11,17 +11,27 @@ class Order{
     }
 
 }
-public class SIT_203 {
+public class SIT_203_301 {
     public static void main(String[] args) {
-        Order [] order = {
-            new Order(101,"Regular", 500.0,5),
-            new Order(102,"Prime",200.0,3),
-            new Order(103, "Prime",700.0, 2),
-            new Order(104, "Regular", 500.0, 2),
-            new Order(105, "Prime", 700.0, 2)
-        };
-        mergeSort(order, 0, order.length-1);
-   }
+    Order [] order = {
+        new Order(101,"Regular", 500.0,5),
+        new Order(102,"Prime",200.0,3),
+        new Order(103, "Prime",700.0, 2),
+        new Order(104, "Regular", 500.0, 2),
+        new Order(105, "Prime", 700.0, 2)
+    };
+
+    mergeSort(order, 0, order.length-1);
+
+    for (Order o : order) {
+        System.out.println(
+            o.orderId + " | " +
+            o.customerType + " | " +
+            o.orderValue + " | " +
+            o.deliveryTime
+        );
+    }
+}
    static void mergeSort(Order[] order, int left, int right){
         if(left < right){
             int mid = left + (right - left) / 2;
