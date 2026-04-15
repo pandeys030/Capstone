@@ -72,3 +72,36 @@ public class SIT_402 {
 }
 
 // Time Complexity O(N log k) where N is the total number of nodes and k is the number of linked lists
+case "mul":
+                    result = a * b;
+                    break;
+                case "div":
+                    if (b != 0) result = a / b;
+                    else {
+                        printer.print("Division by zero!");
+                        return;
+                    }
+                    break;
+            }
+            printer.print(
+                Thread.currentThread().getName() +
+                " → " + a + " " + operation + " " + b +
+                " = " + result
+            );
+        }
+    }
+    public static void main(String[] args) {
+
+        Printer printer = new Printer();
+
+        Thread t1 = new CalcThread(10, 5, "add", printer);
+        Thread t2 = new CalcThread(20, 4, "sub", printer);
+        Thread t3 = new CalcThread(6, 3, "mul", printer);
+        Thread t4 = new CalcThread(40, 2, "div", printer);
+
+        t1.start();
+        t2.start();
+        t3.start();
+        t4.start();
+    }
+}
