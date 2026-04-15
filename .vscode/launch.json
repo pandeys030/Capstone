@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Client_704",
+            "request": "launch",
+            "mainClass": "Client_704",
+            "projectName": "Sit_746604ad"
+        },
+        {
+            "type": "java",
+            "name": "SIT_704",
+            "request": "launch",
+            "mainClass": "SIT_704",
+            "projectName": "Sit_746604ad"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "Sit_746604ad"
+        },
+        {
+            "type": "java",
+            "name": "SIT_703",
+            "request": "launch",
+            "mainClass": "SIT_703",
+            "projectName": "Sit_746604ad"
+        },
+        {
+            "type": "java",
+            "name": "SIT_Client_701",
+            "request": "launch",
+            "mainClass": "SIT_Client_701",
+            "projectName": "Sit_746604ad"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "Server",
+            "projectName": "Sit_746604ad"
+        },
+        {
+            "type": "java",
+            "name": "SIT_701",
+            "request": "launch",
+            "mainClass": "SIT_701",
+            "projectName": "Sit_746604ad"
+        },
+        {
+            "type": "java",
             "name": "SIT_602",
             "request": "launch",
             "mainClass": "SIT_602",
